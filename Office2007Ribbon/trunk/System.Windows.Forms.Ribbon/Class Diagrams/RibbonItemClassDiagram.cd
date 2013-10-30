@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Windows.Forms.RibbonCheckBox" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5" />
+        <Point X="3.5" Y="2.062" />
+        <Point X="4.5" Y="2.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACABgCMAEAAAAFAIABACkAgIBAAAIAAJAAAAmAAAEA=</HashCode>
+      <FileName>Component Classes\RibbonCheckBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonUpDown" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonTextBox" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.438" Y="8.691" />
+        <Point X="8.438" Y="9.625" />
+        <Point X="8.75" Y="9.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgCACDCNAAAQAAAoIADAAAAgABAAAABAIEAAAIACAEA=</HashCode>
+      <FileName>Component Classes\RibbonUpDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTextBox" Collapsed="true">
+    <Position X="8" Y="8" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5.691" />
+        <Point X="3.5" Y="7.846" />
+        <Point X="9.25" Y="7.846" />
+        <Point X="9.25" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgCAQACIgAEGCAgAYELAWAAgAJAQAIgEKIABQHRGBMA=</HashCode>
+      <FileName>Component Classes\RibbonTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonComboBox" Collapsed="true">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonTextBox" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.438" Y="8.691" />
+        <Point X="8.438" Y="9.625" />
+        <Point X="7.75" Y="9.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ykhCBMGKACCPMAAAMAIIAgEAARAGgAAAIBAAABRCgQE=</HashCode>
+      <FileName>Component Classes\RibbonComboBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonLabel" Collapsed="true">
+    <Position X="4.5" Y="8" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5.691" />
+        <Point X="3.5" Y="8.312" />
+        <Point X="4.5" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAIAAAAAAgABAAAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>Component Classes\RibbonLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButtonList" Collapsed="true">
+    <Position X="8" Y="7" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5.691" />
+        <Point X="3.5" Y="7.841" />
+        <Point X="9.25" Y="7.841" />
+        <Point X="9.25" Y="7.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>wgqDAnCIyKS7d0QIICQiBpGy2TgDgohQIABNjGCmTIE=</HashCode>
+      <FileName>Component Classes\RibbonButtonList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemGroup" Collapsed="true">
+    <Position X="4.5" Y="7" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5.691" />
+        <Point X="3.5" Y="7.846" />
+        <Point X="5.688" Y="7.846" />
+        <Point X="5.688" Y="7.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAiAAECIgCEBCCCEAAAAAAAgABAAAgAAAAAEACAAAAE=</HashCode>
+      <FileName>Component Classes\RibbonItemGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbMenuItem" Collapsed="true">
+    <Position X="8" Y="5.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" FixedFromPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="7.382" Y="0.812" />
+        <Point X="7.382" Y="5.846" />
+        <Point X="8" Y="5.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAQAAABAAAACIAAAABAAAAAAAAAAAIA=</HashCode>
+      <FileName>Component Classes\RibbonOrbMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonCaptionButton" Collapsed="true">
+    <Position X="8" Y="4.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" FixedFromPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="7.382" Y="0.812" />
+        <Point X="7.382" Y="4.846" />
+        <Point X="8" Y="4.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAAQAAAAAAAAAAAAACAAAAAQAAAAAAAACAAAI=</HashCode>
+      <FileName>Component Classes\RibbonCaptionButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonDescriptionMenuItem" Collapsed="true">
+    <Position X="8" Y="3.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="7.382" Y="0.812" />
+        <Point X="7.382" Y="3.846" />
+        <Point X="8" Y="3.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAgAAAEAAQAAAAgIAAAABAAAAAAAAAAAgA=</HashCode>
+      <FileName>Component Classes\RibbonDescriptionMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbRecentItem" Collapsed="true">
+    <Position X="8" Y="2.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" FixedFromPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="7.382" Y="0.812" />
+        <Point X="7.382" Y="2.846" />
+        <Point X="8" Y="2.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonOrbRecentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbOptionButton" Collapsed="true">
+    <Position X="8" Y="1.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" FixedFromPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="7.382" Y="0.812" />
+        <Point X="7.382" Y="1.846" />
+        <Point X="8" Y="1.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonOrbOptionButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonColorChooser" Collapsed="true">
+    <Position X="8" Y="0.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonButton" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="0.812" />
+        <Point X="8" Y="0.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAIAAAAAAAQAAAAAgCAAAAAAAAAgABAQgA=</HashCode>
+      <FileName>Component Classes\RibbonColorChooser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonSeparator" Collapsed="true">
+    <Position X="4.5" Y="3" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5" />
+        <Point X="3.5" Y="3.312" />
+        <Point X="4.5" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAACAAAAAAAAAgAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonSeparator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonQuickAccessToolbar" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5" />
+        <Point X="3.5" Y="4.562" />
+        <Point X="4.5" Y="4.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IgiAAACAAyAACEAAAAEAIAAgABAEghEAAhIAACAAAAg=</HashCode>
+      <FileName>Component Classes\RibbonQuickAccessToolbar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonHost" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5.691" />
+        <Point X="3.5" Y="5.875" />
+        <Point X="4.5" Y="5.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAGRAACAgAASAAAAIAAAAgAgAAEAAAAAIAQAABAAQAA=</HashCode>
+      <FileName>Component Classes\RibbonHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButton" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItem" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="5" />
+        <Point X="3.5" Y="0.812" />
+        <Point X="4.5" Y="0.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>z1rCBMSKgCCvNwMFMQKKAwEmKZASDgEBLJAAhiCD18E=</HashCode>
+      <FileName>Component Classes\RibbonButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItem" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCgwETIwKCjJMCHFgZggAhioRAB2VUZIIAgCAa3RnM=</HashCode>
+      <FileName>Component Classes\RibbonItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

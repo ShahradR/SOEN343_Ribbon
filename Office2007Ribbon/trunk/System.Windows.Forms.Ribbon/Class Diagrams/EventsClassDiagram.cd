@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Windows.Forms.RibbonButtonRenderEventArgs" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="2.5" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonRenderEventArgs" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="2.5" />
+        <Point X="1.75" Y="1.812" />
+        <Point X="3.25" Y="1.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonButtonRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemBoundsEventArgs" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="2.25" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonItemRenderEventArgs" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="1.125" />
+        <Point X="6.25" Y="1.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonItemBoundsEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemRenderEventArgs" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="2.5" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonRenderEventArgs" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="2.5" />
+        <Point X="1.75" Y="1.062" />
+        <Point X="3.25" Y="1.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonItemRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbDropDownEventArgs" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonOrbDropDownEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelRenderEventArgs" Collapsed="true">
+    <Position X="3.25" Y="3" Width="2.5" />
+    <InheritanceLine Type="System.Windows.Forms.RibbonRenderEventArgs" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="3.191" />
+        <Point X="1.75" Y="3.375" />
+        <Point X="3.25" Y="3.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAIAAAAAAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonPanelRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonRenderEventArgs" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="2" />
+    <InheritanceLine Type="System.EventArgs" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6" />
+        <Point X="1.5" Y="5.544" />
+        <Point X="2.102" Y="5.544" />
+        <Point X="2.102" Y="3.375" />
+        <Point X="1.5" Y="3.375" />
+        <Point X="1.5" Y="3.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAEAAACgAAAAACAgAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabRenderEventArgs" Collapsed="true">
+    <Position X="3.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonTabRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTextEventArgs" Collapsed="true">
+    <Position X="6.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAIBAAAiCAAAEA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonTextEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonToolTipRenderEventArgs" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAgAAiAQAAIBAAAiCACAEA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonToolTipRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ProToolstripRenderer" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgGIAAEAAAAAGogAAEoACAoEAAAAACEAAEAAAKAA=</HashCode>
+      <FileName>Classes\Renderers\ToolStripRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTable" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eVk8tijjUrKA4fRqd//Lsa0RqETSE56i4drtLm8L9hQ=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableBlack" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableBlack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableBlue" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableBlue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableGreen" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableGreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableHalloween" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableHalloween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableJellyBelly" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableJellyBelly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTablePurple" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTablePurple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfessionalRenderer" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkwEQgpkSEIshlAAATBAEJIIBjkaQIqTCYESDQIEYHg=</HashCode>
+      <FileName>Classes\Renderers\RibbonProfessionalRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonRenderer" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAABkAEAAAAEAACCAAAAIBAAaAAoQAQCAAAAEAUg=</HashCode>
+      <FileName>Classes\Renderers\RibbonRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="System.Windows.Forms.RibbonColorPart" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WBk4sgiiALKAYfBoc/3KMa0AqATSE4wi4drtLk0LdhQ=</HashCode>
+      <FileName>Classes\Renderers\RibbonColorPart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

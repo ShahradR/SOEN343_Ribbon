@@ -1,0 +1,6 @@
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.dll.config
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.csprojResolveAssemblyReference.cache
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Shahrad Rezaei\Documents\School\SOEN 343\Refactoring Presentation\Office2007Ribbon\trunk\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.pdb

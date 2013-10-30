@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Windows.Forms.RibbonButtonCollection" Collapsed="true">
+    <Position X="8.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonButtonCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonContextCollection" Collapsed="true">
+    <Position X="44.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgECIAAAAAAAAAAAABAAAAAAAAAAAKAAAAIAEAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonContextCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemCollection" Collapsed="true">
+    <Position X="10.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYEgECIAAABEAAUAAAAACAAAAEICQAAAAAIGAAFAAE=</HashCode>
+      <FileName>Classes\Collections\RibbonItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemGroupItemCollection" Collapsed="true">
+    <Position X="10.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonItemGroupItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelCollection" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAECIAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAFAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonPanelCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonQuickAccessToolbarItemCollection" Collapsed="true">
+    <Position X="13" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonQuickAccessToolbarItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabCollection" Collapsed="true">
+    <Position X="41" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgECIAAAAAAAAAAAABAAAAAAAAAAAKAAAAIAEAAA=</HashCode>
+      <FileName>Classes\Collections\RibbonTabCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButtonDesigner" Collapsed="true">
+    <Position X="10.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonButtonDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButtonListDesigner" Collapsed="true">
+    <Position X="12.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonButtonListDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonComboBoxDesigner" Collapsed="true">
+    <Position X="15" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonComboBoxDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonDesigner" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABMAAAQQBAAEYAAOACAEAAAAAAgBAAgACAFQAAAAAI=</HashCode>
+      <FileName>Classes\Designers\RibbonDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonElementWithItemCollectionDesigner" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAAAASAQEEgAAEAAAgABSIAAAAAABAIAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonElementWithItemCollectionDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemGroupDesigner" Collapsed="true">
+    <Position X="3.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonItemGroupDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbMenuItemDesigner" Collapsed="true">
+    <Position X="6" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonOrbMenuItemDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelDesigner" Collapsed="true">
+    <Position X="8.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonPanelDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabDesigner" Collapsed="true">
+    <Position X="42.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAgAQAQAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Classes\Designers\RibbonTabDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButtonRenderEventArgs" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonButtonRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonCanvasEventArgs" Collapsed="true">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggCAAAAEAIAAAAIAAAAACAAAAAAAAAAAAAAABgA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonCanvasEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonDropDownRenderEventArgs" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonDropDownRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonElementMeasureSizeEventArgs" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAACAAAAAACAAAAAAQAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonElementMeasureSizeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonElementPaintEventArgs" Collapsed="true">
+    <Position X="41" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAIAAAAAAAgAAAAAACAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonElementPaintEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonElementPopupEventArgs" Collapsed="true">
+    <Position X="42.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAQA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonElementPopUpEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonHostSizeModeHandledEventArgs" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAIACAAAAAACAABAAAQAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonHostSizeModeHandledEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemBoundsEventArgs" Collapsed="true">
+    <Position X="0.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonItemBoundsEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemEventArgs" Collapsed="true">
+    <Position X="41" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonItemEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemRenderEventArgs" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonItemRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbDropDownEventArgs" Collapsed="true">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonOrbDropDownEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelRenderEventArgs" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAIAAAAAAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonPanelRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonRenderEventArgs" Collapsed="true">
+    <Position X="6.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAEAAACgAAAAACAgAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabRenderEventArgs" Collapsed="true">
+    <Position X="9.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonTabRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTextEventArgs" Collapsed="true">
+    <Position X="0.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAIBAAAiCAAAEA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonTextEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonToolTipRenderEventArgs" Collapsed="true">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAgAAiAQAAIBAAAiCACAEA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonToolTipRenderEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbAdornerGlyph" Collapsed="true">
+    <Position X="44.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAACAEAAAAAAAAAAAAgAQAAAKAgA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonOrbAdornerGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbAdornerGlyphBehavior" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonOrbAdornerGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelGlyph" Collapsed="true">
+    <Position X="41" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAEAIAAAAAAAAAAAAAAAAAQAAAKAgA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonPanelGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelGlyphBehavior" Collapsed="true">
+    <Position X="42.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonPanelGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonQuickAccessToolbarGlyph" Collapsed="true">
+    <Position X="37.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAQAAAKAgA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonQuickAccessToolbarGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonQuickAccessGlyphBehavior" Collapsed="true">
+    <Position X="35.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAACAAA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonQuickAccessToolbarGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabGlyph" Collapsed="true">
+    <Position X="44.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAgAQAAAKAgA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonTabGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTabGlyphBehavior" Collapsed="true">
+    <Position X="35.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAACAAA=</HashCode>
+      <FileName>Classes\Glyphs\RibbonTabGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTable" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eVk8tijjUrKA4fRqd//Lsa0RqETSE56i4drtLm8L9hQ=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableBlack" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableBlack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableBlue" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableBlue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableGreen" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableGreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableHalloween" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableHalloween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTableJellyBelly" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTableJellyBelly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfesionalRendererColorTablePurple" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Renderers\Color Tables\RibbonProfesionalRendererColorTablePurple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonProfessionalRenderer" Collapsed="true">
+    <Position X="15.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkwEQgpkSEIshlAAATBAEJIIBjkaQIqTCYESDQIEYHg=</HashCode>
+      <FileName>Classes\Renderers\RibbonProfessionalRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonRenderer" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAABkAEAAAAEAACCAAAAIBAAaAAoQAQCAAAAEAUg=</HashCode>
+      <FileName>Classes\Renderers\RibbonRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.ProToolstripRenderer" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgGIAAEAAAAAGogAAEoACAoEAAAAACEAAEAAAKAA=</HashCode>
+      <FileName>Classes\Renderers\ToolStripRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonFormHelper" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAQIgACAAACAAACEAAEACABACAAAAAAoCAUwEABAA=</HashCode>
+      <FileName>Classes\RibbonFormHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemCollectionEditor" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\RibbonItemCollectionEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonMouseSensor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RGAAAAGmwCFcCAAAAICEEAAAMVEEAGwDAxMAIKgKqwA=</HashCode>
+      <FileName>Classes\RibbonMouseSensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPopupManager" Collapsed="true">
+    <Position X="44.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAABAAAAgACAAEABAAABQEAAAAAAEAA=</HashCode>
+      <FileName>Classes\RibbonPopupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Set&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQAAAABAQAABAAAAAEAAAAAABUIAA=</HashCode>
+      <FileName>Classes\Set.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.Theme" Collapsed="true">
+    <Position X="42.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAACAAAAAAAAAAAAAAAQUAAAAACAAAAAAAAAAIAA=</HashCode>
+      <FileName>Classes\Theme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Ribbon" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>i53ndObMBeT3h6SI0DvJkTQimRIcM+yCdMDgVILfphY=</HashCode>
+      <FileName>Component Classes\Ribbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButton" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>z1rCBMSKgCCvNwMFMQKKAwEmKZASDgEBLJAAhiCD18E=</HashCode>
+      <FileName>Component Classes\RibbonButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonButtonList" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgqDAnCIyKS7d0QIICQiBpGy2TgDgohQIABNjGCmTIE=</HashCode>
+      <FileName>Component Classes\RibbonButtonList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonCaptionButton" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAAQAAAAAAAAAAAAACAAAAAQAAAAAAAACAAAI=</HashCode>
+      <FileName>Component Classes\RibbonCaptionButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonCheckBox" Collapsed="true">
+    <Position X="33.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABgCMAEAAAAFAIABACkAgIBAAAIAAJAAAAmAAAEA=</HashCode>
+      <FileName>Component Classes\RibbonCheckBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonColorChooser" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAIAAAAAAAQAAAAAgCAAAAAAAAAgABAQgA=</HashCode>
+      <FileName>Component Classes\RibbonColorChooser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonComboBox" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ykhCBMGKACCPMAAAMAIIAgEAARAGgAAAIBAAABRCgQE=</HashCode>
+      <FileName>Component Classes\RibbonComboBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonContext" Collapsed="true">
+    <Position X="42.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACIAAAAAAAAAAAAAAAAAAgEAEAIAAAACABAAAA=</HashCode>
+      <FileName>Component Classes\RibbonContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonDescriptionMenuItem" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAgAAAEAAQAAAAgIAAAABAAAAAAAAAAAgA=</HashCode>
+      <FileName>Component Classes\RibbonDescriptionMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonDropDown" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgKARFKoQwwLX0UIJCZgF4CgUBBEgKAQJhhNCMCGDYA=</HashCode>
+      <FileName>Component Classes\RibbonDropDown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonHost" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGRAACAgAASAAAAIAAAAgAgAAEAAAAAIAQAABAAQAA=</HashCode>
+      <FileName>Component Classes\RibbonHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItem" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCgwETIwKCjJMCHFgZggAhioRAB2VUZIIAgCAa3RnM=</HashCode>
+      <FileName>Component Classes\RibbonItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonItemGroup" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAECIgCEBCCCEAAAAAAAgABAAAgAAAAAEACAAAAE=</HashCode>
+      <FileName>Component Classes\RibbonItemGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonLabel" Collapsed="true">
+    <Position X="26.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAIAAAAAAgABAAAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>Component Classes\RibbonLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbDropDown" Collapsed="true">
+    <Position X="5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g4TgAQBgCQGEVDggUAABEBwQAAAQlAMBMkRwAAhCEAI=</HashCode>
+      <FileName>Component Classes\RibbonOrbDropDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbMenuItem" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAQAAABAAAACIAAAABAAAAAAAAAAAIA=</HashCode>
+      <FileName>Component Classes\RibbonOrbMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbOptionButton" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonOrbOptionButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonOrbRecentItem" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonOrbRecentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAjwgADowHIhCMRlSkFKBADmABQB8hEZIIUICCWPQgY=</HashCode>
+      <FileName>Component Classes\RibbonPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanelPopup" Collapsed="true">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgCAAAAAAQAAAAAAAAAABAgAAAAQCAABIAAAAAACAAA=</HashCode>
+      <FileName>Component Classes\RibbonPanelPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPopup" Collapsed="true">
+    <Position X="2.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggCAAAAgCAAAAAAAAAAAgEoABBAEgAAAABAAAACAAIA=</HashCode>
+      <FileName>Component Classes\RibbonPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonQuickAccessToolbar" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgiAAACAAyAACEAAAAEAIAAgABAEghEAAhIAACAAAAg=</HashCode>
+      <FileName>Component Classes\RibbonQuickAccessToolbar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonSeparator" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAACAAAAAAAAAgAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonSeparator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTab" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IZm4lgvI0qKgVgAGqgxEnMjkIDDDFyE5AJJwKYC0z3I=</HashCode>
+      <FileName>Component Classes\RibbonTab.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTextBox" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAQACIgAEGCAgAYELAWAAgAJAQAIgEKIABQHRGBMA=</HashCode>
+      <FileName>Component Classes\RibbonTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonToolTip" Collapsed="true">
+    <Position X="37.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCEQCgoCAAgECBAABBggICAAAAAAAIBAAAAAABgBI=</HashCode>
+      <FileName>Component Classes\RibbonToolTip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonUpDown" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCACDCNAAAQAAAoIADAAAAgABAAAABAIEAAAIACAEA=</HashCode>
+      <FileName>Component Classes\RibbonUpDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonWrappedDropDown" Collapsed="true">
+    <Position X="39.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component Classes\RibbonWrappedDropDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgwAAAAAA=</HashCode>
+      <FileName>RibbonForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonHelpers.GlobalHook" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAABAAAACCAgECgAAgAAAAgABJAEAYAI4CYAAKCAAU=</HashCode>
+      <FileName>Classes\GlobalHook.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonHelpers.WinApi" Collapsed="true">
+    <Position X="44.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMBBommgIimEQlCRADJSjECBAUDAiogRXymhir9uuyQ=</HashCode>
+      <FileName>Classes\WinApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.Windows.Forms.IContainsRibbonComponents" Collapsed="true">
+    <Position X="35.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IContainsRibbonComponents.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IContainsSelectableRibbonItems" Collapsed="true">
+    <Position X="37.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IContainsSelectableRibbonItems.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IDropDownRibbonItem" Collapsed="true">
+    <Position X="39.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAAAAAAAAAAAAAAgAAAAAAgAAAAAAAABAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IDropDownRibbonItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IRibbonElement" Collapsed="true">
+    <Position X="41" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Interfaces\IRibbonElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IRibbonForm" Collapsed="true">
+    <Position X="42.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IRibbonForm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IRibbonToolTip" Collapsed="true">
+    <Position X="44.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAgAgAABAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Classes\Interfaces\IRibbonToolTip.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Windows.Forms.IScrollableRibbonItem" Collapsed="true">
+    <Position X="35.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Classes\Interfaces\IScrollableRibbonItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="System.Windows.Forms.RibbonTheme" Collapsed="true">
+    <Position X="35.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAEABAAAAAAAAAAAAAAIAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonOrbStyle" Collapsed="true">
+    <Position X="42.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIEAAAAAAAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonArrowDirection" Collapsed="true">
+    <Position X="35.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonButtonStyle" Collapsed="true">
+    <Position X="37.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonWindowMode" Collapsed="true">
+    <Position X="37.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonPanelFlowDirection" Collapsed="true">
+    <Position X="44.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonElementSizeMode" Collapsed="true">
+    <Position X="41" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAIEEAAA=</HashCode>
+      <FileName>Classes\Enums\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Windows.Forms.RibbonColorPart" Collapsed="true">
+    <Position X="39.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WBk4sgiiALKAYfBoc/3KMa0AqATSE4wi4drtLk0LdhQ=</HashCode>
+      <FileName>Classes\Renderers\RibbonColorPart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="System.Windows.Forms.RibbonElementPopupEventHandler" Collapsed="true">
+    <Position X="35.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EventArgs\RibbonElementPopUpEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

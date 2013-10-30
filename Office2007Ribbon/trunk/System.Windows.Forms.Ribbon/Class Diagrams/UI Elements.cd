@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="System.Windows.Forms.Ribbon" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>i53ndObMBeT3h6SI0DvJkTQimRIcM+yCdMDgVILfphY=</HashCode>
+      <FileName>Component Classes\Ribbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAjwgADowHIhCMRlSkFKBADmABQB8hEZIIUICCWPQgY=</HashCode>
+      <FileName>Component Classes\RibbonPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.RibbonTab" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IZm4lgvI0qKgVgAGqgxEnMjkIDDDFyE5AJJwKYC0z3I=</HashCode>
+      <FileName>Component Classes\RibbonTab.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
