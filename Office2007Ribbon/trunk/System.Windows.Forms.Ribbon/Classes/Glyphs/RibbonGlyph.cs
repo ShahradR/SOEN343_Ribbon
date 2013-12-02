@@ -10,6 +10,8 @@ namespace System.Windows.Forms
     public abstract class RibbonGlyph
         : Glyph
     {
+        protected BehaviorService _behaviorService;
+
         public RibbonGlyph(Behavior behavior)
             : base(behavior)
         {

@@ -12,7 +12,6 @@ namespace System.Windows.Forms
     {
         #region Fields
         private bool _menuVisible;
-        private BehaviorService _behaviorService;
         private Ribbon _ribbon;
         private RibbonDesigner _componentDesigner;
         #endregion

@@ -14,7 +14,6 @@ namespace System.Windows.Forms
         : RibbonGlyph
 
     {
-        BehaviorService _behaviorService;
         Ribbon _ribbon;
         RibbonDesigner _componentDesigner;
 

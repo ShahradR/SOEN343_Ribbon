@@ -10,7 +10,6 @@ namespace System.Windows.Forms
     public class RibbonPanelGlyph
         : RibbonGlyph
     {
-        BehaviorService _behaviorService;
         RibbonTab _tab;
         RibbonTabDesigner _componentDesigner;
         Size size;
