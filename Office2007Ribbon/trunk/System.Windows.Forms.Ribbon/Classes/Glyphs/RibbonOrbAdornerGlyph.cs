@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
 namespace System.Windows.Forms
 {
     public class RibbonOrbAdornerGlyph
-        : Glyph
+        : RibbonGlyph
     {
         #region Fields
         private bool _menuVisible;

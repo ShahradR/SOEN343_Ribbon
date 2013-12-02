@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
 namespace System.Windows.Forms
 {
     public class RibbonPanelGlyph
-        : Glyph
+        : RibbonGlyph
     {
         BehaviorService _behaviorService;
         RibbonTab _tab;

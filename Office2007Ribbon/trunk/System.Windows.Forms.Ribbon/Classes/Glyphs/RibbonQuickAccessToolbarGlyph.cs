@@ -11,7 +11,7 @@ using System.Drawing.Drawing2D;
 namespace System.Windows.Forms
 {
     public class RibbonQuickAccessToolbarGlyph
-        : Glyph
+        : RibbonGlyph
 
     {
         BehaviorService _behaviorService;
