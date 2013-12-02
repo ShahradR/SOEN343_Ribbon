@@ -12,9 +12,10 @@ namespace System.Windows.Forms
     {
         protected BehaviorService _behaviorService;
 
-        public RibbonGlyph(Behavior behavior)
+        public RibbonGlyph(Behavior behavior, BehaviorService behaviorService)
             : base(behavior)
         {
+            _behaviorService = behaviorService;
         }
     }
 }

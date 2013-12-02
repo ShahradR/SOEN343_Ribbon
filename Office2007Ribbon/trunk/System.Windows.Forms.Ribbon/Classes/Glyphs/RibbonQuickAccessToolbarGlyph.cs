@@ -18,9 +18,8 @@ namespace System.Windows.Forms
         RibbonDesigner _componentDesigner;
 
         public RibbonQuickAccessToolbarGlyph(BehaviorService behaviorService, RibbonDesigner designer, Ribbon ribbon)
-            : base(new RibbonQuickAccessGlyphBehavior(designer, ribbon))
+            : base(new RibbonQuickAccessGlyphBehavior(designer, ribbon), behaviorService)
         {
-            _behaviorService = behaviorService;
             _componentDesigner = designer;
             _ribbon = ribbon;
         }

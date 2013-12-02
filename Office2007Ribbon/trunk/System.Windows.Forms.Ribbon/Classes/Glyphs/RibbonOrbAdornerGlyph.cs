@@ -19,9 +19,8 @@ namespace System.Windows.Forms
         #region Ctor
 
         public RibbonOrbAdornerGlyph(BehaviorService behaviorService, RibbonDesigner designer, Ribbon ribbon)
-            : base(new RibbonOrbAdornerGlyphBehavior())
+            : base(new RibbonOrbAdornerGlyphBehavior(), behaviorService)
         {
-            _behaviorService = behaviorService;
             _componentDesigner = designer;
             _ribbon = ribbon;
         }

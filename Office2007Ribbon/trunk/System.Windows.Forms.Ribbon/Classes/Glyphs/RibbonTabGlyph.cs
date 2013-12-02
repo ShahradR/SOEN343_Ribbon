@@ -15,9 +15,8 @@ namespace System.Windows.Forms
       Size size;
 
       public RibbonTabGlyph(BehaviorService behaviorService, RibbonDesigner designer, Ribbon ribbon)
-         : base(new RibbonTabGlyphBehavior(designer, ribbon))
+          : base(new RibbonTabGlyphBehavior(designer, ribbon), behaviorService)
       {
-         _behaviorService = behaviorService;
          _componentDesigner = designer;
          _ribbon = ribbon;
          size = new Size(60, 16);
