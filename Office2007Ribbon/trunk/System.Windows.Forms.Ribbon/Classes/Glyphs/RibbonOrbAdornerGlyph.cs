@@ -55,17 +55,6 @@ namespace System.Windows.Forms
             }
         }
 
-        public override Cursor GetHitTest(System.Drawing.Point p)
-        {
-            if (Bounds.Contains(p))
-            {
-                return Cursors.Hand;
-            }
-
-            return null;
-        }
-
-
         public override void Paint(PaintEventArgs pe)
         {
             //SmoothingMode smbuff = pe.Graphics.SmoothingMode;

@@ -17,5 +17,15 @@ namespace System.Windows.Forms
         {
             _behaviorService = behaviorService;
         }
+
+        public override Cursor GetHitTest(System.Drawing.Point p)
+        {
+            if (Bounds.Contains(p))
+            {
+                return Cursors.Hand;
+            }
+
+            return null;
+        }
     }
 }

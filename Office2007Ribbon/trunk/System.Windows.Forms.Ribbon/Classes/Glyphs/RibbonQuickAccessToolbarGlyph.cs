@@ -48,17 +48,6 @@ namespace System.Windows.Forms
             }
         }
 
-        public override Cursor GetHitTest(System.Drawing.Point p)
-        {
-            if (Bounds.Contains(p))
-            {
-                return Cursors.Hand;
-            }
-
-            return null;
-        }
-
-
         public override void Paint(PaintEventArgs pe)
         {
            if (_ribbon.CaptionBarVisible && _ribbon.QuickAcessToolbar.Visible)
