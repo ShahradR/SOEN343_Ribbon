@@ -59,20 +59,8 @@ namespace System.Windows.Forms
 
                 //Michael Spradlin 07/05/2013 Added Panel Index code so we can tell where a panel is at on the ribbon.
                panel.Index = Tab.Panels.Count;
-
-               if (panel.Index == 0)
-               {
-                   panel.IsFirstPanel = true;
-               }
-               else
-               {
-                   foreach (RibbonPanel pnl in Tab.Panels)
-                   {
-                       pnl.IsLastPanel = false;
-                   }
-
-                   panel.IsLastPanel = true;
-               }
+  
+               setPanelPosition(panel);
 
                Tab.Panels.Add(panel);
                Tab.Owner.OnRegionsChanged();
@@ -81,6 +69,23 @@ namespace System.Windows.Forms
             base.RaiseComponentChanged(member, null, null);
             transaction.Commit();
          }
+      }
+
+      private void setPanelPosition(RibbonPanel panel)
+      {
+          if (panel.Index == 0)
+          {
+              panel.IsFirstPanel = true;
+          }
+          else
+          {
+              foreach (RibbonPanel pnl in Tab.Panels)
+              {
+                  pnl.IsLastPanel = false;
+              }
+
+              panel.IsLastPanel = true;
+          }
       }
 
       public override void Initialize(IComponent component)
