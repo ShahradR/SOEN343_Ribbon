@@ -1,0 +1,68 @@
+ .../trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs     | 2 ++
+ .../System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs | 1 -
+ .../System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs      | 1 -
+ .../Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs                     | 1 -
+ .../trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs  | 1 -
+ 5 files changed, 2 insertions(+), 4 deletions(-)
+
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+index aa8f90a..c23f19d 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+@@ -10,6 +10,8 @@ namespace System.Windows.Forms
+     public abstract class RibbonGlyph
+         : Glyph
+     {
++        protected BehaviorService _behaviorService;
++
+         public RibbonGlyph(Behavior behavior)
+             : base(behavior)
+         {
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+index d3c5381..f762829 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+@@ -12,7 +12,6 @@ namespace System.Windows.Forms
+     {
+         #region Fields
+         private bool _menuVisible;
+-        private BehaviorService _behaviorService;
+         private Ribbon _ribbon;
+         private RibbonDesigner _componentDesigner;
+         #endregion
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+index 96292ee..2120249 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+@@ -10,7 +10,6 @@ namespace System.Windows.Forms
+     public class RibbonPanelGlyph
+         : RibbonGlyph
+     {
+-        BehaviorService _behaviorService;
+         RibbonTab _tab;
+         RibbonTabDesigner _componentDesigner;
+         Size size;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+index 980925b..fcf7969 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+@@ -14,7 +14,6 @@ namespace System.Windows.Forms
+         : RibbonGlyph
+ 
+     {
+-        BehaviorService _behaviorService;
+         Ribbon _ribbon;
+         RibbonDesigner _componentDesigner;
+ 
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+index 3954f8e..ef2bf72 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+@@ -10,7 +10,6 @@ namespace System.Windows.Forms
+    public class RibbonTabGlyph
+        : RibbonGlyph
+    {
+-      BehaviorService _behaviorService;
+       Ribbon _ribbon;
+       RibbonDesigner _componentDesigner;
+       Size size;

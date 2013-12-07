@@ -1,0 +1,54 @@
+ .../Classes/Designers/RibbonTabDesigner.cs         | 33 +++++++++++++---------
+ 1 file changed, 19 insertions(+), 14 deletions(-)
+
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Designers/RibbonTabDesigner.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Designers/RibbonTabDesigner.cs
+index d1ec4a0..fbdd996 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Designers/RibbonTabDesigner.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Designers/RibbonTabDesigner.cs
+@@ -59,20 +59,8 @@ namespace System.Windows.Forms
+ 
+                 //Michael Spradlin 07/05/2013 Added Panel Index code so we can tell where a panel is at on the ribbon.
+                panel.Index = Tab.Panels.Count;
+-
+-               if (panel.Index == 0)
+-               {
+-                   panel.IsFirstPanel = true;
+-               }
+-               else
+-               {
+-                   foreach (RibbonPanel pnl in Tab.Panels)
+-                   {
+-                       pnl.IsLastPanel = false;
+-                   }
+-
+-                   panel.IsLastPanel = true;
+-               }
++  
++               setPanelPosition(panel);
+ 
+                Tab.Panels.Add(panel);
+                Tab.Owner.OnRegionsChanged();
+@@ -83,6 +71,23 @@ namespace System.Windows.Forms
+          }
+       }
+ 
++      private void setPanelPosition(RibbonPanel panel)
++      {
++          if (panel.Index == 0)
++          {
++              panel.IsFirstPanel = true;
++          }
++          else
++          {
++              foreach (RibbonPanel pnl in Tab.Panels)
++              {
++                  pnl.IsLastPanel = false;
++              }
++
++              panel.IsLastPanel = true;
++          }
++      }
++
+       public override void Initialize(IComponent component)
+       {
+          base.Initialize(component);

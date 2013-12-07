@@ -1,0 +1,116 @@
+ .../System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs | 10 ++++++++++
+ .../Classes/Glyphs/RibbonOrbAdornerGlyph.cs                   | 11 -----------
+ .../Classes/Glyphs/RibbonPanelGlyph.cs                        | 11 -----------
+ .../Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs           | 11 -----------
+ .../Classes/Glyphs/RibbonTabGlyph.cs                          | 11 -----------
+ 5 files changed, 10 insertions(+), 44 deletions(-)
+
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+index aa80526..b7629e2 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+@@ -17,5 +17,15 @@ namespace System.Windows.Forms
+         {
+             _behaviorService = behaviorService;
+         }
++
++        public override Cursor GetHitTest(System.Drawing.Point p)
++        {
++            if (Bounds.Contains(p))
++            {
++                return Cursors.Hand;
++            }
++
++            return null;
++        }
+     }
+ }
+\ No newline at end of file
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+index d68c67f..8e6f974 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+@@ -55,17 +55,6 @@ namespace System.Windows.Forms
+             }
+         }
+ 
+-        public override Cursor GetHitTest(System.Drawing.Point p)
+-        {
+-            if (Bounds.Contains(p))
+-            {
+-                return Cursors.Hand;
+-            }
+-
+-            return null;
+-        }
+-
+-
+         public override void Paint(PaintEventArgs pe)
+         {
+             //SmoothingMode smbuff = pe.Graphics.SmoothingMode;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+index ae636f0..4820614 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+@@ -51,17 +51,6 @@ namespace System.Windows.Forms
+             }
+         }
+ 
+-        public override Cursor GetHitTest(System.Drawing.Point p)
+-        {
+-            if (Bounds.Contains(p))
+-            {
+-                return Cursors.Hand;
+-            }
+-
+-            return null;
+-        }
+-
+-
+         public override void Paint(PaintEventArgs pe)
+         {
+             SmoothingMode smbuff = pe.Graphics.SmoothingMode;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+index 23a2ac7..a97386f 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+@@ -48,17 +48,6 @@ namespace System.Windows.Forms
+             }
+         }
+ 
+-        public override Cursor GetHitTest(System.Drawing.Point p)
+-        {
+-            if (Bounds.Contains(p))
+-            {
+-                return Cursors.Hand;
+-            }
+-
+-            return null;
+-        }
+-
+-
+         public override void Paint(PaintEventArgs pe)
+         {
+            if (_ribbon.CaptionBarVisible && _ribbon.QuickAcessToolbar.Visible)
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+index 403a87b..27c7229 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+@@ -51,17 +51,6 @@ namespace System.Windows.Forms
+          }
+       }
+ 
+-      public override Cursor GetHitTest(System.Drawing.Point p)
+-      {
+-         if (Bounds.Contains(p))
+-         {
+-            return Cursors.Hand;
+-         }
+-
+-         return null;
+-      }
+-
+-
+       public override void Paint(PaintEventArgs pe)
+       {
+          SmoothingMode smbuff = pe.Graphics.SmoothingMode;

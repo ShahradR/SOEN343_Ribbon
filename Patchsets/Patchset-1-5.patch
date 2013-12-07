@@ -1,0 +1,97 @@
+ .../Classes/Glyphs/RibbonGlyph.cs                      | 18 ++++++++++++++++++
+ .../Classes/Glyphs/RibbonOrbAdornerGlyph.cs            |  2 +-
+ .../Classes/Glyphs/RibbonPanelGlyph.cs                 |  2 +-
+ .../Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs    |  2 +-
+ .../Classes/Glyphs/RibbonTabGlyph.cs                   |  2 +-
+ .../System.Windows.Forms.Ribbon35.csproj               |  1 +
+ 6 files changed, 23 insertions(+), 4 deletions(-)
+
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+new file mode 100644
+index 0000000..aa8f90a
+--- /dev/null
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonGlyph.cs
+@@ -0,0 +1,18 @@
++using System;
++using System.Collections.Generic;
++using System.Text;
++using System.Windows.Forms.Design.Behavior;
++using System.Drawing;
++using System.Drawing.Drawing2D;
++
++namespace System.Windows.Forms
++{
++    public abstract class RibbonGlyph
++        : Glyph
++    {
++        public RibbonGlyph(Behavior behavior)
++            : base(behavior)
++        {
++        }
++    }
++}
+\ No newline at end of file
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+index c3c5e08..d3c5381 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonOrbAdornerGlyph.cs
+@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
+ namespace System.Windows.Forms
+ {
+     public class RibbonOrbAdornerGlyph
+-        : Glyph
++        : RibbonGlyph
+     {
+         #region Fields
+         private bool _menuVisible;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+index 40a94b4..96292ee 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonPanelGlyph.cs
+@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
+ namespace System.Windows.Forms
+ {
+     public class RibbonPanelGlyph
+-        : Glyph
++        : RibbonGlyph
+     {
+         BehaviorService _behaviorService;
+         RibbonTab _tab;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+index be889cb..980925b 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonQuickAccessToolbarGlyph.cs
+@@ -11,7 +11,7 @@ using System.Drawing.Drawing2D;
+ namespace System.Windows.Forms
+ {
+     public class RibbonQuickAccessToolbarGlyph
+-        : Glyph
++        : RibbonGlyph
+ 
+     {
+         BehaviorService _behaviorService;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+index 920c7a3..3954f8e 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/Classes/Glyphs/RibbonTabGlyph.cs
+@@ -8,7 +8,7 @@ using System.Drawing.Drawing2D;
+ namespace System.Windows.Forms
+ {
+    public class RibbonTabGlyph
+-       : Glyph
++       : RibbonGlyph
+    {
+       BehaviorService _behaviorService;
+       Ribbon _ribbon;
+diff --git a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/System.Windows.Forms.Ribbon35.csproj b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/System.Windows.Forms.Ribbon35.csproj
+index 9bf9413..dc91178 100644
+--- a/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/System.Windows.Forms.Ribbon35.csproj
++++ b/Office2007Ribbon/trunk/System.Windows.Forms.Ribbon/System.Windows.Forms.Ribbon35.csproj
+@@ -67,6 +67,7 @@
+     <Compile Include="Classes\Enums\Enums.cs" />
+     <Compile Include="Classes\EventArgs\RibbonButtonRenderEventArgs.cs" />
+     <Compile Include="Classes\EventArgs\RibbonDropDownRenderEventArgs.cs" />
++    <Compile Include="Classes\Glyphs\RibbonGlyph.cs" />
+     <Compile Include="Classes\Interfaces\IContainsRibbonComponents.cs" />
+     <Compile Include="Classes\Interfaces\IContainsSelectableRibbonItems.cs" />
+     <Compile Include="Classes\Interfaces\IDropDownRibbonItem.cs" />
